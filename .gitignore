@@ -1,0 +1,46 @@
+# Java 椤圭洰甯哥敤 .gitignore
+# 鏀惧埌椤圭洰鏍圭洰褰曪紝鍜?.git 鍚岀骇
+
+# 缂栬瘧浜х墿
+target/
+build/
+out/
+*.class
+*.jar
+*.war
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+*.swp
+
+# 鏃ュ織
+*.log
+logs/
+
+# 渚濊禆锛堝鏋滅敤 Maven Wrapper 灏变繚鐣?.mvn锛?node_modules/
+
+# 绯荤粺鏂囦欢
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 鏈湴閰嶇疆 / 瀵嗛挜锛堝崈涓囧埆浼狅級
+*.env
+application-local.yml
+application-local.properties
+*.p12
+*.jks
+
+# 鏁版嵁搴撴枃浠?*.db
+*.sqlite
+*.sqlite3
+
+# 浣犵殑璇剧▼璧勬枡銆佸ぇ鏂囦欢
+*.zip
+*.rar
+*.mp4
+*.avi
